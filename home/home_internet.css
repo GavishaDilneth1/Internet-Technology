@@ -1,0 +1,396 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav_bar {
+  background-color: #FDCFFA;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center; 
+  border-radius: 10px;
+  width: 90%;
+  margin-left: 5%;
+  border: 1px solid #D78FEE;
+  margin-top: 10px;
+}
+
+.nav_link a{
+  color: #9B5DE0;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.nav_link a:hover {
+  border: 2px dashed #D78FEE;
+  border-radius: 10px;
+}
+.nav_link1 a{
+   color: #9B5DE0;
+   text-decoration: none;
+   font-size: 20px;
+   padding: 10px;
+   margin-right: 100px;
+   border: 2px groove #D78FEE;
+   border-radius: 10px;
+}
+.container {
+    background-color: #FFFCFB;
+    display: flex;
+}
+.hero-section {
+  background-color: #FFFCFB;
+  padding: 50px;
+  border-radius: 20px;
+  border: 1px solid #FFFCFB;
+  margin-bottom: 20px;
+}
+.hero-title{
+    color: #9B5DE0;
+    font-size: 40px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+.hero-subtitle{
+    color: #9B5DE0;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.img1{
+    width: 60%;
+    height: auto;
+    border-radius: 20px;
+    border: 2px solid #D78FEE;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.5s ease, box-shadow 0.5s ease-in;
+}
+.img1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.titles{
+    color: #9B5DE0;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    border: 1px dashed #D78FEE;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 20%;
+    padding: 10px;
+
+}
+
+.card-title{
+    color: #9B5DE0;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px dotted #D78FEE;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #FFFCFB;
+    width: 80%;
+    cursor: pointer;
+    margin-left: 10%;
+}
+.card-text{
+    color: #000;
+    font-size: 17px;
+    text-align: justify;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: normal;
+}
+.btn1 a{
+    background-color: #FDCFFA;
+    color: #9B5DE0;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px dotted #D78FEE;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;                
+    max-width: 250px; 
+}
+.btn1 a:hover{
+    background-color: #FFFCFB;
+    color: #000;
+    border: 2px dotted #000;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.btn2 a{
+    display: inline-block;
+    background-color: #FFFCFB;
+    color: #000;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px dotted #000;
+}
+.btn2 :hover{
+    background-color: #FDCFFA;
+    color: #9B5DE0;
+    border: 2px dotted #D78FEE;
+}
+.w1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    line-height:3px;
+}
+.bi-arrow-up-circle{
+    font-size: 30px;
+    color: #9B5DE0;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.footer1{
+    background-color: #FDCFFA;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #D78FEE;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+.footer-text{
+    margin-top: 10px;
+    color: #9B5DE0;
+    font-size: 15px;
+}
+.icons{
+    margin-top: 10px;
+    color: #9B5DE0;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+}
+.icons a{
+    color: #9B5DE0;
+    text-decoration: none;
+}
+.icons a:hover{
+    color: #D78FEE;
+}
+.mission{
+    border: 1px dotted #D78FEE;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: #FFFCFB;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+.goals{
+    border: 1px dotted #D78FEE;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: #FFFCFB;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+.creator{
+    border: 1px dotted #D78FEE;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: #FFFCFB;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+} 
+.card-title{
+    color: #000;
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px dotted #D78FEE;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    width: 60%;
+    cursor: pointer;
+    margin-left: 20%;
+}
+.p1{
+    color: #000;
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: normal;
+}
+.s1{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.num-section{
+    margin-top: 20px;
+    display: flex;
+    background-color: #FDCFFA;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #D78FEE;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+
+}   
+.num-title{
+    color: #9B5DE0;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}   
+.num-subtitle{
+    color: #000;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.menu {
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 12px;
+}
+
+@media (max-width: 768px) {
+
+  .nav_bar {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    margin-left: 5%;
+    padding: 20px;
+    gap: 10px;
+    position: relative;
+    }
+  .nav_link, .nav_link1 {
+    display: none;
+    width: 100%;
+    text-align: left;
+    padding: 10px 15px;
+    margin: 2px 0;
+    }
+  .nav_link a, .nav_link1 a {
+    font-size: 16px;
+    width: 100%;
+    display: block;
+    }
+  .menu {
+    display: block;
+    color: #9B5DE0;
+    margin-left: auto;
+  }
+  .nav_bar.active .nav_link,
+  .nav_bar.active .nav_link1 {
+    display: block;
+  }
+    .hero-section {
+        padding: 5px 15px;
+        width: 1000px;
+    }
+    .hero-title {
+        font-size: 20px;
+        margin-right: 0;
+        margin-left: 10px;
+    }
+    .hero-subtitle {
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .img1 {
+        width: 60%;
+        margin-top: 30px;
+        padding: 5px;
+        margin-left: 25%;
+    }
+    .titles {
+        font-size: 28px;
+        width: 90%;
+        margin-left: 5%;
+        padding: 8px;
+    }
+    .card {
+        width: 90%;
+        margin: 15px auto;
+    }
+    .card-title {
+        font-size: 22px;
+        width: 80%;
+        margin-left: 10%;
+        padding: 8px;
+    }
+    .card-text {
+        font-size: 16px;
+        padding: 8px;
+    }
+    .btn1 a {
+        font-size: 16px;
+        padding: 2px 20px;
+        margin-right: 10px;
+    }
+    .btn1 a:hover {
+        padding: 2px 20px;
+    }
+    .mission, .goals, .creator {
+        width: 90%;
+        margin-left: 5%;
+        padding: 15px;
+    }
+    .p1 {
+        font-size: 16px;
+    }
+    .num-section {
+        flex-direction: column;
+        gap: 20px;
+        width: 90%;
+        margin-left: 5%;
+        padding: 15px;
+    }
+    .num-title {
+        font-size: 26px;
+    }
+    .num-subtitle {
+        font-size: 16px;
+    }
+
+    .footer1 {
+        width: 95%;
+        margin-left: 2.5%;
+        padding: 15px;
+    }
+    .footer-text {
+        font-size: 14px;
+    }
+    .icons {
+        font-size: 24px;
+        gap: 10px;
+    }
+}
